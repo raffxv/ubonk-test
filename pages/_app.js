@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
       <link rel="preconnect" href="https://stijndv.com" />
       <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
     </Head>
-    <WalletContextProvider>
+    <WalletContextProvider autoConnect>
       <NextUIProvider>
         <main className="">    
         <ToastContainer 
